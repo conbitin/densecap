@@ -1,5 +1,5 @@
 cd eval
-wget http://www.cs.cmu.edu/~alavie/METEOR/download/meteor-1.5.tar.gz
+wget --no-check-certificate http://www.cs.cmu.edu/~alavie/METEOR/download/meteor-1.5.tar.gz
 tar -xzvf meteor-1.5.tar.gz
 cp meteor-1.5/meteor-1.5.jar .
 mkdir data
